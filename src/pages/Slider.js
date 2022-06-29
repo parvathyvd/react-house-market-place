@@ -27,7 +27,7 @@ const Slider = () => {
           data: doc.data(),
         });
       });
-      console.log("listings", listings);
+      // console.log("listings", listings);
       setListings(listings);
       setLoading(false);
     };

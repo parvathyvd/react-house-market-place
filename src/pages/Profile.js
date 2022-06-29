@@ -48,7 +48,7 @@ const Profile = () => {
           data: doc.data(),
         });
       });
-      console.log("my list", listings);
+      // console.log("my list", listings);
       setListings(listings);
       setLoading(false);
     };

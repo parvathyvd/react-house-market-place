@@ -72,7 +72,7 @@ function CreateListing() {
 
   const onSubmit = async (e) => {
     e.preventDefault();
-    console.log(formData);
+    // console.log(formData);
 
     setLoading(true);
 
